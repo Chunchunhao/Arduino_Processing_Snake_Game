@@ -58,7 +58,7 @@ void setup() {
 
 void draw() {
   // -------------- Get The Direction 
-  if( size != MAXSIZE ) {
+  if( size == MAXSIZE ) {
     background(end);
     frameRate(1);
     if( fst_end == 0 ){
